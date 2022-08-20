@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #629A16;
+    font-family: Roboto, Geneva, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.home, .guest{
+    font-size: 30px;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+.blackScreen1, .blackScreen2{
+    background-color: black;
+    border-radius: 9px;
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#home-score, #guest-score{
+    align-self: center;
+    font-size: 70px;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL", Roboto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-container, .guest-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img, .plus-btn{
+    height: 40px;
+    background: transparent;
+    border: none;
+}
+
+.scoreboard{
+    background-color: #1B244A;
+    align-self: center;
+    width: 575px;
+    height: 340px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.new-game{
+    background-color: #F94F6D;
+    height: 50px;
+    font-weight: 900;
+    color: white;
+    border-radius: 7px;
+    margin-top: 10px;
+}

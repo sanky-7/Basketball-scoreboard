@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="scoreboard">
+		<div class="container">
+			<div class="home-container">
+				<h3 class="home">HOME</h3>
+				<div class="blackScreen1">
+					<p id="home-score">0</p>
+				</div>
+				<div class="home-buttons">
+					<button class="plus-btn" onclick="homeIncrement1()"><img src="plus1.png" alt="" class="home-plus1"></button>
+					<button class="plus-btn" onclick="homeIncrement2()"><img src="plus2.png" alt="" class="home-plus2"></button>
+					<button class="plus-btn" onclick="homeIncrement3()"><img src="plus3.png" alt="" class="home-plus3"></button>
+				</div>
+			</div>
+			<div class="guest-container">
+				<h3 class="guest">GUEST</h3>
+				<div class="blackScreen2">
+					<p id="guest-score">0</p>
+				</div>
+				<div class="guest-buttons">
+					<button class="plus-btn" onclick="guestIncrement1()"><img src="plus1.png" alt="" class="guest-plus1"></button>
+					<button class="plus-btn" onclick="guestIncrement2()"><img src="plus2.png" alt="" class="guest-plus2"></button>
+					<button class="plus-btn" onclick="guestIncrement3()"><img src="plus3.png" alt="" class="guest-plus3"></button>
+				</div>
+			</div>
+		</div>
+		<button class="new-game" onclick="newGame()">NEW GAME</button>
+	</div>
+    <script src="index.js"></script>
+</body>
+</html>
